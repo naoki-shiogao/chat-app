@@ -1,9 +1,10 @@
 <div class="side_content">
+  
   <div class="side_header">
-   <a href="" class="side_header_username">Tom</a>
-   <div class="side_header_box">
-    <a href="" class="side_header_chatlink">チャットを制作する</a>
-   </div>
+    <%= link_to current_user.name, edit_user_path(current_user), class: "side_header_username"  %>
+    <div class="side_header_box">
+      <a href="" class="side_header_chatlink">チャットを制作する</a>
+    </div>
   </div>
   <div class="side_main">
     <div class="side_chatroom">
@@ -12,7 +13,7 @@
     <div class="side_chatroom">
       <a href="">techroom2</a>
     </div>
-    
+      
   </div>
+ 
 </div>
-

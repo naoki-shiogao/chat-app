@@ -10,16 +10,53 @@
   width: 300px;
 }
 
+/*サイドヘッダー＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .side_header{
   height: 100px;
   background-color:#253141;
   padding:0 20px;
+  display:flex;
+  justify-content:space-between;
 }
+
+.side_header_username{
+  line-height: 100px;
+  color:#fafafa;
+  font-size:16px;
+  text-decoration: none;
+}
+
+.side_header_box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side_header_chatlink{
+  color:deepskyblue;
+  font-size:10px;
+  border: 1px solid lightblue;
+  padding:14px;
+  text-decoration: none;
+}
+
+/*サイドメイン＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 .side_main{
   height: calc(100vh - 100px);
   background-color:#2f3e51;
   padding:0 20px;
+  overflow:scroll;
+}
+
+.side_chatroom{
+  padding:20px 0 40px 0;
+}
+
+.side_chatroom a{
+  color:#fff;
+  text-decoration: none;
 }
 
 /*チャット画面＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/

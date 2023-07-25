@@ -122,38 +122,34 @@
 
 /*チャット画面フッター＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.chat_footer{
+.form {
+  background-color: #DDDDDD;
   height: 90px;
-  background-color:#dddddd;
-  padding:20px 40px;
+  padding: 20px 40px;
+  display: flex;
 }
 
-.chat_form{
-  display:flex;
-  justify-content: space-between;
-}
-
-.form_input {
+.form-input {
   background-color: white;
   display: flex;
   width: 100%;
 }
 
-.chat_text{
-  padding-left:10px;
-  width: 100%;
+.form-message {
+  border: none;
   height: 50px;
-  display: block;
-  border:none;
+  width: 100%;
+  padding-left: 10px;
 }
 
-.chat_btn{
-  display: block;
-  padding:0 20px 0 20px;
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
   font-size: 16px;
-  color:#fff;
-  background: #38aef0;
-  margin-left:15px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
 
 .form-image {

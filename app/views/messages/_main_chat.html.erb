@@ -6,16 +6,7 @@
     </div>
   </div>
   <div class="chat_main">
-    <div class="chat_user">
-      <div class="chat_user_name">Tom</div>
-      <div class="chat_day">2023/7/30(Sun)00:00:00</div>
-    </div>
-    <div class="chat_content">おはよう</div>
-    <div class="chat_user">
-      <div class="chat_user_name">Tom</div>
-      <div class="chat_day">2023/7/30(Sun)00:00:00</div>
-    </div>
-    <div class="chat_content">おはよう</div>
+   <%= render partial: 'message', collection: @messages %>
   </div>
   <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
     <div class="form-input">
